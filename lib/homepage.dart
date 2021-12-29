@@ -46,7 +46,7 @@ class _HomepageState extends State<Homepage> {
                     padding:
                         const EdgeInsets.only(left: 40, right: 40, top: 10),
                     child: ClipRRect(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(50),
                       child: Container(
                         color: const Color(0xbffdf0f0),
                         child: Row(
@@ -74,7 +74,7 @@ class _HomepageState extends State<Homepage> {
                     padding:
                         const EdgeInsets.only(left: 40, right: 40, top: 10),
                     child: ClipRRect(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(50),
                       child: Container(
                         color: const Color(0xbffdf0f0),
                         child: Row(
@@ -112,9 +112,9 @@ class _HomepageState extends State<Homepage> {
                 Expanded(
                   child: Padding(
                     padding:
-                        const EdgeInsets.only(left: 40, right: 40, top: 10),
+                        const EdgeInsets.only(left: 40, right: 40, top: 10,bottom: 10),
                     child: ClipRRect(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(50),
                       child: Container(
                         color: const Color(0xbf4e3a26),
                         child: Row(
