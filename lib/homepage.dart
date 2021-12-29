@@ -111,8 +111,8 @@ class _HomepageState extends State<Homepage> {
                 ),
                 Expanded(
                   child: Padding(
-                    padding:
-                        const EdgeInsets.only(left: 40, right: 40, top: 10,bottom: 10),
+                    padding: const EdgeInsets.only(
+                        left: 40, right: 40, top: 10, bottom: 10),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(50),
                       child: Container(
@@ -139,31 +139,43 @@ class _HomepageState extends State<Homepage> {
                   children: [
                     Expanded(
                       child: Padding(
-                        padding: const EdgeInsets.only(left: 10, right: 5,bottom: 20),
-                        child: SignInButton(
-                          Buttons.AppleDark,
-                          text: 'Sign in',
-                          onPressed: () {},
+                        padding: const EdgeInsets.only(
+                            left: 10, right: 5, bottom: 20),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(30),
+                          child: SignInButton(
+                            Buttons.AppleDark,
+                            text: 'Sign in',
+                            onPressed: () {},
+                          ),
                         ),
                       ),
                     ),
                     Expanded(
                       child: Padding(
-                        padding: const EdgeInsets.only(left: 5, right: 5,bottom: 20),
-                        child: SignInButton(
-                          Buttons.Google,
-                          text: 'Sign in',
-                          onPressed: () {},
+                        padding: const EdgeInsets.only(
+                            left: 5, right: 5, bottom: 20),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(30),
+                          child: SignInButton(
+                            Buttons.Google,
+                            text: 'Sign in',
+                            onPressed: () {},
+                          ),
                         ),
                       ),
                     ),
                     Expanded(
                       child: Padding(
-                        padding: const EdgeInsets.only(left: 5, right: 10,bottom: 20),
-                        child: SignInButton(
-                          Buttons.Facebook,
-                          text: 'Sign in',
-                          onPressed: () {},
+                        padding: const EdgeInsets.only(
+                            left: 5, right: 10, bottom: 20),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(30),
+                          child: SignInButton(
+                            Buttons.Facebook,
+                            text: 'Sign in',
+                            onPressed: () {},
+                          ),
                         ),
                       ),
                     ),
